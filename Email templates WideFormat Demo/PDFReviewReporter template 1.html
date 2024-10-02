@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PDF Review Module Collection Report</title>
+    <meta name="description" content="PDF Review Module Collection Report">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            padding: 10px 0 0 0;
+        }
+
+        .logo {
+            font-size: 13px;
+            padding: 0 15px 0 0;
+        }
+
+        table {
+            padding: 0;
+            /*cellpadding alternative in css*/
+            text-align: left;
+            border-spacing: 0;
+            /*cellspacing alternative in css*/
+            border: none;
+            /* instead of border=0 in css*/
+
+            border-collapse: separate;
+            margin: auto;
+            /*align center alternative*/
+        }
+
+        .title {
+            font-size: 29px;
+            font-weight: bold;
+            color: #666666;
+        }
+
+        th,
+        td {
+            margin: auto;
+            text-align: center;
+        }
+
+        .footer td {
+            margin: auto;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 11px;
+            color: #666666
+        }
+
+        .PDFR_Error {
+            background-color: #ff0000;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+        .PDFR_CollectionTitle {
+            background-color: #0d85c0;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+
+        .PDFR_filename {
+            background-color: #abd8ef;
+            padding: 5px 10px;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .PDFR_reviewComment {
+            padding: 0px 10px;
+            font-size: 14px;
+        }
+
+        .PDFR_stickyNotesTable {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+
+        .PDFR_stickyNotesTable tr:hover {
+            background-color: #daeef9;
+        }
+
+        .PDFR_nr,
+        .PDFR_nr td {
+            /* uncomment to hide nr */
+            /* display: none; */
+            text-align: left;
+        }
+
+        .PDFR_page,
+        .PDFR_page td {
+            text-align: left;
+        }
+
+        .PDFR_date,
+        .PDFR_date td {
+            text-align: left;
+        }
+
+        .PDFR_reviewer,
+        .PDFR_reviewer td {
+            text-align: left;
+        }
+
+        .PDFR_comment,
+        .PDFR_comment td {
+            text-align: left;
+        }
+
+        a {
+            color: black;
+            font-weight: bold;
+        }
+
+        a:hover {
+            opacity: .7;
+        }
+    </style>
+
+<!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Verstaen, Davy</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">4611900.00000000</mso:Order>
+<mso:_ExtendedDescription msdt:dt="string"></mso:_ExtendedDescription>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Verstaen, Davy</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x01010077D3B1DE0FFCC24DA04CB6B2228D1A7D</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body>
+
+    <table class="header">
+        <tbody>
+            <tr>
+
+                <td class="logo">
+
+                    <img src="http://www.enfocus.com/webmarketing/email_template/images/PdfReviewModuleIcon_100x100.png"
+                        width="100" height="100" alt="Enfocus PDF Review Module" style="width: 100px; height: 100px" />
+
+                </td>
+
+                <td class="title">
+                    PDF Review Module Report
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    [Job.EmailBody]
+
+    <table>
+        <tr class="footer">
+            <td>
+
+                &copy; Enfocus BV. All rights reserved<br />This E-mail was generated using the <a
+                    href="https://www.enfocus.com/en/appstore/overview" style="color:#337ab7; text-decoration: none">
+                    Enfocus PDF Review Module Reporter app</a>.<br>
+                For more information on the PDF Review Module go to the <a
+                    href="https://www.enfocus.com/en/solutions/online-proofing-software"
+                    title=" Enfocus Online proofing" style="color:#337ab7; text-decoration: none;"> Enfocus Online
+                    proofing web page. </a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
